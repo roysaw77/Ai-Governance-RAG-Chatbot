@@ -1,11 +1,11 @@
 #  RAG Chatbot
 
-This project is a Retrieval-Augmented Generation (RAG) chatbot application. It ingests text documents, builds a local vector database using Chroma, and provides a Streamlit interface. The bot leverages Hugging Face embeddings for document retrieval and Nvidia's API (using Llama 3.3) for generating answers.
+This project is a Retrieval-Augmented Generation (RAG) chatbot application. It ingests text documents, builds a local vector database using Chroma, and provides a Streamlit interface. The bot leverages Hugging Face embeddings for document retrieval and Nvidia's API for generating answers.
 
 ---
 
 ## Project Structure
-
+- **`Dataset/`** : Contains AGORA segments and documents datasets https://zenodo.org/records/23413137
 - **`ingest.py`**:Loads and merges the AGORA segments and documents datasets, formats the content into LangChain Documents, generates embeddings using `BAAI/bge-large-en-v1.`5, and stores the resulting vectors in a local Chroma vector database (`./chroma_db`) for semantic retrieval.
 - **`rag.py`**: Contains the core logic and function for the RAG pipeline. It loads the vector database by using `BAAI/bge-large-en-v1.5` embeddings, and queries the NVIDIA API (`meta/llama-3.3-70b-instruct`) to generate answers based on the context.
 - **`main.py`**: A front-end web application built with `Streamlit` : Chatbased design

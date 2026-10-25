@@ -62,7 +62,7 @@ def generate_answer(context, query):
     """
 
     completion = client.chat.completions.create(
-        model="meta/llama-3.3-70b-instruct",
+        model="nvidia/nemotron-3.5-lightning-30b-a3b",
         messages=[
             {
                 "role": "user",
