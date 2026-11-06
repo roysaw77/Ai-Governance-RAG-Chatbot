@@ -6,6 +6,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot application. It i
 ## Demo Video
 **Question**
 SEC. 1554 – AI Adoption for Cyber Operations：What are the key objectives of the five-year AI roadmap for the U.S. Cyber Command?
+
 **Answer**
 The five-year roadmap aims to:
 1. Identify and prioritize AI systems and applications for cyberspace operations.
