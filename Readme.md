@@ -3,6 +3,21 @@
 This project is a Retrieval-Augmented Generation (RAG) chatbot application. It ingests text documents, builds a local vector database using Chroma, and provides a Streamlit interface. The bot leverages Hugging Face embeddings for document retrieval and Nvidia's API for generating answers.
 
 ---
+## Demo Video
+**Question**
+SEC. 1554 – AI Adoption for Cyber Operations：What are the key objectives of the five-year AI roadmap for the U.S. Cyber Command?
+**Answer**
+The five-year roadmap aims to:
+1. Identify and prioritize AI systems and applications for cyberspace operations.
+2. Develop, acquire, adopt, and maintain AI capabilities.
+3. Identify existing AI capabilities and skill gaps.
+4. Strengthen cybersecurity and defend against AI-based cyberattacks.
+5. Establish milestones, investments, and performance metrics to track AI adoption.
+6. Identify long-term technology gaps and opportunities for research and development.
+
+The terminal outputs the answer based on the retrieved references
+
+https://github.com/user-attachments/assets/e302f6b3-f30a-4c96-8cd8-6dbeb3a65c4f
 
 ## Project Structure
 - **`Dataset/`** : Contains AGORA segments and documents datasets https://zenodo.org/records/23413137
